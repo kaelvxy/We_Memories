@@ -88,6 +88,14 @@ function lanjut() {
   `;
   const audio = document.getElementById("myaudio");
   audio.play();
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      audio.pause(); // stop saat tab disembunyikan
+    } else {
+      audio.play(); // lanjutkan saat kembali ke tab
+    }
+  });
 }
 
 function bukalist() {
