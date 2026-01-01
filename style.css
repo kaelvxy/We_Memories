@@ -40,7 +40,8 @@ body {
   box-shadow: 3px 3px 25px #ff99cc;
   position: relative;
   animation: fadeinatas 1s ease-in-out;
-  transition: opacity 1s, transform 1s; 
+  transition: opacity 1s, transform 1s;
+  z-index: 0;
 }
 .profileku {
   text-align: center;
@@ -95,7 +96,7 @@ body {
   display: grid;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 5;
   animation: fadekiri 0.5s ease-in-out;
 }
 .play {
@@ -113,7 +114,7 @@ body {
   font-weight: 600;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 5;
   animation: fadeinatas 0.5s ease-in-out;
 }
 .stop {
@@ -131,7 +132,7 @@ body {
   font-weight: 600;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 5;
   animation: fadeinatas 0.5s ease-in-out;
 }
 .bukadev {
@@ -163,7 +164,7 @@ body {
   text-align: center;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 5;
   animation: fadekiri 0.5s ease-in-out;
 }
 .tutupdev {
@@ -316,4 +317,41 @@ body {
   font-weight: 600;
   width: 60px;
   height: 40px;
+}
+.masuk {
+  border: 1px solid pink;
+  border-radius: 10px;
+  background-color: pink;
+  font-family: Sans-Serif;
+  font-weight: 600;
+  width: 60px;
+  height: 40px;
+}
+#self {
+  padding: 10px;
+  border-radius: 10px;
+}
+#self:hover {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid pink;
+}
+.enc {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  box-shadow: 3px 3px 25px #ff99cc;
+  position: relative;
+  height: 10%;
+  width: 70%;
+  border: 1px solid pink;
+  border-radius: 6px;
+  background-color: white;
+}
+#container-masuk {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
