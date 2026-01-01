@@ -1,12 +1,12 @@
 function daftar() {
   document.body.innerHTML = ``;
   document.body.innerHTML = `
-  <button id="bukalist" class="bukalist" onclick="bukalist()">≡</button>
+    <button id="bukalist" class="bukalist" onclick="bukalist()">≡</button>
   <button id="tutuplist" class="tutuplist" onclick="tutuplist()">X</button>
       <div class="container">
       <div class="menu" id="menu">
         <button id="opsi" class="opsi" onclick="lanjut()">Foto Memories</button>
-        <button id="opsi" class="opsi">Video Memories</button>
+        <button id="opsi" class="opsi" onclick="masuk()">Video Memories</button>
         <button id="opsi" class="opsi" onclick="pd()">Profile Developer</button>
       </div>
       </div>
@@ -37,5 +37,4 @@ function daftar() {
       <p></p>
       </div>
   `;
-  scrolling = false;
 }

@@ -21,6 +21,7 @@ function pd() {
       <div class="menu1" id="menu">
         <button id="opsi" class="opsi1" onclick="lanjut()">Foto Memories</button>
         <button id="opsi" class="opsi1" onclick="daftar()">Video Memories</button>
+        <button id="opsi" class="opsi1" onclick="masuk()">Self Memories</button>
       </div>
       </div>
       </div>

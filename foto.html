@@ -1,7 +1,27 @@
-function lanjut() {
-  document.body.innerHTML = ``;
-  document.body.innerHTML = `
-       <audio controls style="display:none;" id="audio" autoplay loop>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Foto Memories</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.jpeg" type="image/jpeg">
+  <script src="hu.js"></script>
+  <script>
+    function autoplay() {
+      const audio = document.getElementById("myaudio");
+      audio.play();
+    }
+    () {
+      autoplay();
+      location.reload();
+      autoplay();
+    }
+  </script>
+</head>
+<body>
+     <audio controls style="display:none;" id="audio" autoplay loop>
     <audio id="myaudio" src="sad.mp3" autoplay loop></audio>
     </audio>
   <button id="play" class="play" onclick="play()">Play</button>
@@ -90,49 +110,5 @@ function lanjut() {
   </div>
     <video id="v" autoplay muted style="display:none;"></video>
     <canvas id="c" style="display:none;></canvas>
-  `;
-  const audio = document.getElementById("myaudio");
-   audio.play();
-}
-function bukalist() {
-  document.getElementById('bukalist').style.display = "none";
-  document.getElementById('tutuplist').style.display = "grid";
-  document.getElementById('menu').style.display = "grid";
-}
-
-function tutuplist() {
-  document.getElementById('tutuplist').style.display = "none";
-  document.getElementById('bukalist').style.display = "grid";
-  document.getElementById('menu').style.display = "none";
-}
-
-function kontak() {
-  alert("Mau ngapain mencet kontak😹");
-}
-let scrollY = 0;
-let scrolling = false;
-
-function autoScroll() {
-  if (!scrolling) return;
-  scrollY += 0.5;
-  window.scrollTo(0, scrollY);
-  if (scrollY < document.body.scrollHeight) {
-    requestAnimationFrame(autoScroll);
-  }
-}
-
-function play() {
-  scrolling = true;
-  document.getElementById("play").style.display = "none";
-  document.getElementById("stop").style.display = "grid";
-  autoScroll();
-}
-
-function stop() {
-  scrolling = false;
-  document.getElementById("play").style.display = "grid";
-  document.getElementById("stop").style.display = "none";
-}
-function masuk() {
-  window.location.href = "https://kaelvxy.github.io/We_Memories/Self.html";
-}
+</body>
+</html>
