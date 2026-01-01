@@ -8,6 +8,7 @@ function daftar() {
         <button id="opsi" class="opsi" onclick="lanjut()">Foto Memories</button>
         <button id="opsi" class="opsi" onclick="masuk()">Video Memories</button>
         <button id="opsi" class="opsi" onclick="pd()">Profile Developer</button>
+        <button id="opsi" class="opsi" onclick="masuk()">Self Memories</button>
       </div>
       </div>
      <div class="container">
