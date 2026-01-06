@@ -174,3 +174,12 @@ function stop() {
 function masuk() {
   window.location.href = "https://kaelvxy.github.io/We_Memories/Self.html";
 }
+const audio = document.getElementById("myaudio");
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      audio.pause(); // stop saat tab disembunyikan
+    } else {
+      audio.play(); // lanjutkan saat kembali ke tab
+    }
+  });
