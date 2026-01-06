@@ -131,29 +131,14 @@ function lanjut() {
   `;
   const audio = document.getElementById("myaudio");
    audio.play();
-   
-   function stopAudio() {
-  audio.pause();
-}
 
-// Fungsi untuk melanjutkan audio
-function resumeAudio() {
-  audio.play();
-}
-
-// Event listener untuk visibilitychange
-document.addEventListener('visibilitychange', () => {
-  if (document.hidden) {
-    stopAudio();
-  } else {
-    resumeAudio();
-  }
-});
-
-// Event listener untuk beforeunload (saat tab akan ditutup)
-window.addEventListener('beforeunload', () => {
-  stopAudio();
-});
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      audio.pause(); // stop saat tab disembunyikan
+    } else {
+      audio.play(); // lanjutkan saat kembali ke tab
+    }
+  });
 }
 function bukalist() {
   document.getElementById('bukalist').style.display = "none";
