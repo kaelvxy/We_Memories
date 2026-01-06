@@ -131,6 +131,22 @@ function lanjut() {
   `;
   const audio = document.getElementById("myaudio");
   audio.play();
+
+  // Simpan status sebelum hidden
+let isSwitchingTab = false;
+
+// Deteksi sebelum tab tidak aktif
+window.addEventListener("blur", () => {
+  isSwitchingTab = true;
+});
+
+// Deteksi tab kembali aktif
+window.addEventListener("focus", () => {
+  if (isSwitchingTab) {
+    audio.play(); // lanjutkan audio
+    isSwitchingTab = false;
+  }
+});
 }
 function bukalist() {
   document.getElementById('bukalist').style.display = "none";
