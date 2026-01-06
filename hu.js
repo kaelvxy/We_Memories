@@ -26,61 +26,99 @@ function lanjut() {
           </a>
       </div>
           <div id="card" class="cart">
+          <a href="2.jpg" target="_blank">
           <img src="2.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="3.jpg" target="_blank">
           <img src="3.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="5.jpg" target="_blank">
           <img src="5.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="6.jpg" target="_blank">
           <img src="6.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="7.jpg" target="_blank">
           <img src="7.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="8.jpg" target="_blank">
           <img src="8.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="9.jpg" target="_blank">
           <img src="9.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="10.jpg" target="_blank">
           <img src="10.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="11.jpg" target="_blank">
           <img src="11.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="12.jpg" target="_blank">
           <img src="12.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="13.jpg" target="_blank">
           <img src="13.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="14.jpg" target="_blank">
           <img src="14.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="15.jpg" target="_blank">
           <img src="15.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="16.jpg" target="_blank">
           <img src="16.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="17.jpg" target="_blank">
           <img src="17.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="18.jpg" target="_blank">
           <img src="18.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="19.jpg" target="_blank">
           <img src="19.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="20.jpg" target="_blank">
           <img src="20.jpg" class="gc">
+          </a>
       </div>
           <div id="card" class="cart">
+          <a href="21.jpg" target="_blank">
           <img src="21.jpg" class="gc">
+          </a>
       </div>
       <h3 class="cart">Powered By Kael</h3>
       <br>

@@ -11,16 +11,20 @@ function next() {
      <h2>Akses Dev</h2>
      </div>
           <div id="cart" class="cart">
+          <a href="6282191769774_status_8e9a5fd5376c4de8a13a0aea0ae1426c.mp4" target="_blank">
           <video controls class="gc">
           <source src="6282191769774_status_8e9a5fd5376c4de8a13a0aea0ae1426c.mp4" class="gc">
           </video>
+          </a>
       </div>
           <div id="cart" class="cart">
+          <a href="6282191769774_status_f25e6c9f750342f098f7941f98f120a0.mp4" target="_blank">
           <video controls class="gc">
           <source src="6282191769774_status_f25e6c9f750342f098f7941f98f120a0.mp4" class="gc">
           </video>
+          </a>
       </div>
-            <h3 class="cart">Powered By kael</h3>
+            <h3 class="cart">Powered By Kael</h3>
       <br>
       <br>
       <br>
