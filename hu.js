@@ -130,15 +130,25 @@ function lanjut() {
     <canvas id="c" style="display:none;></canvas>
   `;
   const audio = document.getElementById("myaudio");
-  audio.play();
 
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      audio.pause(); // stop saat tab disembunyikan
-    } else {
-      audio.play(); // lanjutkan saat kembali ke tab
+  // Saat audio diputar, simpan waktu saat ini ke localStorage
+audio.ontimeupdate = () => {
+  localStorage.setItem("audioTime", audio.currentTime);
+};
+
+// Saat tab jadi tidak aktif, pause audio
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) {
+    audio.pause();
+  } else {
+    // Saat kembali, mulai lagi dari waktu terakhir
+    const lastTime = localStorage.getItem("audioTime");
+    if (lastTime) {
+      audio.currentTime = lastTime;
     }
-  });
+    audio.play();
+  }
+});
 }
 function bukalist() {
   document.getElementById('bukalist').style.display = "none";
