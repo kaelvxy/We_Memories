@@ -4,9 +4,9 @@ function pd() {
  <div class="containerdev" id="container">
           <div id="card" class="profileku">
  <h2 class"judul">Profile Developer</h2>
-          <img src="JPEG_20251122_180857_2110_.png" class="icon">
+          <img src="20260105_161228.png" class="icon">
           <p class="ppd">
-         duaarrr, kenalin aku jihad (Creator dari web ini😹)
+         duaarrr, kenalin aku Kael (Creator dari web ini😹)
          
          awokawokawokawok😹
         </p>
@@ -21,7 +21,7 @@ function pd() {
       <div class="menu1" id="menu">
         <button id="opsi" class="opsi1" onclick="lanjut()">Foto Memories</button>
         <button id="opsi" class="opsi1" onclick="daftar()">Video Memories</button>
-        <button id="opsi" class="opsi1" onclick="masuk()">Self Memories</button>
+        <button id="opsi" class="opsi1" onclick="masuk()">Akses Dev</button>
       </div>
       </div>
       </div>

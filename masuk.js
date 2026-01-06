@@ -1,23 +1,14 @@
 function next() {
-  const novita = 040012;
+  const pw = ["792yd9hsfps"];
   const input = document.getElementById("self").value;
   const invalid = document.getElementById("pw-invalid");
   
-  if(input == novita) {
+  if(input == pw) {
     document.body.innerHTML = ``;
     document.body.innerHTML = `
-        <button id="bukalist" class="bukalist" onclick="bukalist()">≡</button>
-  <button id="tutuplist" class="tutuplist" onclick="tutuplist()">X</button>
-      <div class="container">
-      <div class="menu" id="menu">
-        <button id="opsi" class="opsi" onclick="lanjut()">Foto Memories</button>
-        <button id="opsi" class="opsi" onclick="daftar()">Video Memories</button>
-        <button id="opsi" class="opsi" onclick="pd()">Profile Developer</button>
-      </div>
-      </div>
      <div class="container">
      <div class="cart" id="card">
-     <h2>Self Memories</h2>
+     <h2>Akses Dev</h2>
      </div>
           <div id="cart" class="cart">
           <video controls class="gc">
@@ -29,7 +20,7 @@ function next() {
           <source src="6282191769774_status_f25e6c9f750342f098f7941f98f120a0.mp4" class="gc">
           </video>
       </div>
-            <h3 class="cart">Powered By 𝕵𝖎𝖍𝖆𝖉</h3>
+            <h3 class="cart">Powered By kael</h3>
       <br>
       <br>
       <br>
@@ -37,9 +28,9 @@ function next() {
       <p></p>
       </div>
     `;
+    alert("Password Valid. Jangan beri tahu password ke siapa pun")
   } else {
-    invalid.innerText = "";
-    invalid.innerText = "Password Invalid";
+    setTimeout(invalid.innerText = "Password Invalid"),1000;
   };
 }
 function bukalist() {

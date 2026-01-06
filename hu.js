@@ -12,7 +12,7 @@ function lanjut() {
       <div class="menu" id="menu">
         <button id="opsi" class="opsi" onclick="daftar()">Video Memories</button>
         <button id="opsi" class="opsi" onclick="pd()">Profile Developer</button>
-        <button id="opsi" class="opsi" onclick="masuk()">Self Memories</button>
+        <button id="opsi" class="opsi" onclick="masuk()">Akses Dev</button>
       </div>
       </div>
   <div class="container" id="container">
@@ -82,7 +82,7 @@ function lanjut() {
           <div id="card" class="cart">
           <img src="21.jpg" class="gc">
       </div>
-      <h3 class="cart">Powered By 𝕵𝖎𝖍𝖆𝖉</h3>
+      <h3 class="cart">Powered By Kael</h3>
       <br>
       <br>
       <br>
