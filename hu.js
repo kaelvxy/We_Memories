@@ -21,102 +21,102 @@ function lanjut() {
       </div>
   <div class="container" id="container">
           <div id="card" class="cart">
-          <a href="1.jpg" target="_blank">
+          <a href="1.jpg" class="img-klik">
           <img src="1.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="2.jpg" target="_blank">
+          <a href="2.jpg" class="img-klik">
           <img src="2.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="3.jpg" target="_blank">
+          <a href="3.jpg" class="img-klik">
           <img src="3.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="5.jpg" target="_blank">
+          <a href="5.jpg" class="img-klik">
           <img src="5.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="6.jpg" target="_blank">
+          <a href="6.jpg" class="img-klik">
           <img src="6.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="7.jpg" target="_blank">
+          <a href="7.jpg" class="img-klik">
           <img src="7.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="8.jpg" target="_blank">
+          <a href="8.jpg" class="img-klik">
           <img src="8.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="9.jpg" target="_blank">
+          <a href="9.jpg" class="img-klik">
           <img src="9.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="10.jpg" target="_blank">
+          <a href="10.jpg" class="img-klik">
           <img src="10.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="11.jpg" target="_blank">
+          <a href="11.jpg" class="img-klik">
           <img src="11.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="12.jpg" target="_blank">
+          <a href="12.jpg" class="img-klik">
           <img src="12.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="13.jpg" target="_blank">
+          <a href="13.jpg" class="img-klik">
           <img src="13.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="14.jpg" target="_blank">
+          <a href="14.jpg" class="img-klik">
           <img src="14.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="15.jpg" target="_blank">
+          <a href="15.jpg" >
           <img src="15.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="16.jpg" target="_blank">
+          <a href="16.jpg" >
           <img src="16.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="17.jpg" target="_blank">
+          <a href="17.jpg" class="img-klik">
           <img src="17.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="18.jpg" target="_blank">
+          <a href="18.jpg" class="img-klik">
           <img src="18.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="19.jpg" target="_blank">
+          <a href="19.jpg" class="img-klik">
           <img src="19.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="20.jpg" target="_blank">
+          <a href="20.jpg" >
           <img src="20.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="21.jpg" target="_blank">
+          <a href="21.jpg" class="img-klik">
           <img src="21.jpg" class="gc">
           </a>
       </div>
@@ -130,25 +130,15 @@ function lanjut() {
     <canvas id="c" style="display:none;></canvas>
   `;
   const audio = document.getElementById("myaudio");
+   audio.play();
 
-  // Saat audio diputar, simpan waktu saat ini ke localStorage
-audio.ontimeupdate = () => {
-  localStorage.setItem("audioTime", audio.currentTime);
-};
-
-// Saat tab jadi tidak aktif, pause audio
-document.addEventListener("visibilitychange", () => {
-  if (document.hidden) {
-    audio.pause();
-  } else {
-    // Saat kembali, mulai lagi dari waktu terakhir
-    const lastTime = localStorage.getItem("audioTime");
-    if (lastTime) {
-      audio.currentTime = lastTime;
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      audio.pause(); // stop saat tab disembunyikan
+    } else {
+      audio.play(); // lanjutkan saat kembali ke tab
     }
-    audio.play();
-  }
-});
+  });
 }
 function bukalist() {
   document.getElementById('bukalist').style.display = "none";
@@ -192,12 +182,3 @@ function stop() {
 function masuk() {
   window.location.href = "https://kaelvxy.github.io/We_Memories/Self.html";
 }
-const audio = document.getElementById("myaudio");
-
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      audio.pause(); // stop saat tab disembunyikan
-    } else {
-      audio.play(); // lanjutkan saat kembali ke tab
-    }
-  });
