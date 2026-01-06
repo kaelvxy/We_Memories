@@ -130,15 +130,7 @@ function lanjut() {
     <canvas id="c" style="display:none;></canvas>
   `;
   const audio = document.getElementById("myaudio");
-   audio.play();
-
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      audio.pause(); // stop saat tab disembunyikan
-    } else {
-      audio.play(); // lanjutkan saat kembali ke tab
-    }
-  });
+  audio.play();
 }
 function bukalist() {
   document.getElementById('bukalist').style.display = "none";
