@@ -35,6 +35,11 @@ function lanjut() {
           <img src="3.jpg" class="gc">
           </a>
       </div>
+      <div id="card" class="cart">
+          <a href="4.jpg" class="img-klik">
+          <img src="4.jpg" class="gc">
+          </a>
+      </div>
           <div id="card" class="cart">
           <a href="6.jpg" class="img-klik">
           <img src="6.jpg" class="gc">
