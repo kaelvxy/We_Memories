@@ -5,11 +5,11 @@ function pd() {
           <div id="card" class="profileku">
  <h2 class"judul">Profile Developer</h2>
           <img src="20260105_161228.png" class="icon">
+          <marquee>
           <p class="ppd">
-         duaarrr, kenalin aku Kael (Creator dari web ini😹)
-         
-         awokawokawokawok😹
+         duaarrr, kenalin aku Kael (Creator dari web ini😹) awokawokawokawok😹
         </p>
+          </marquee>
         <h4 class="txtmedsos">Medsos :</h4>
         <button class="medsos" onclick="tiktok()">Tiktok</button>
         <button class="medsos" onclick="ig()">IG</button>

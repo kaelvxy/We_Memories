@@ -36,11 +36,6 @@ function lanjut() {
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="5.jpg" class="img-klik">
-          <img src="5.jpg" class="gc">
-          </a>
-      </div>
-          <div id="card" class="cart">
           <a href="6.jpg" class="img-klik">
           <img src="6.jpg" class="gc">
           </a>
@@ -53,11 +48,6 @@ function lanjut() {
           <div id="card" class="cart">
           <a href="8.jpg" class="img-klik">
           <img src="8.jpg" class="gc">
-          </a>
-      </div>
-          <div id="card" class="cart">
-          <a href="9.jpg" class="img-klik">
-          <img src="9.jpg" class="gc">
           </a>
       </div>
           <div id="card" class="cart">
@@ -111,16 +101,15 @@ function lanjut() {
           </a>
       </div>
           <div id="card" class="cart">
-          <a href="20.jpg" >
-          <img src="20.jpg" class="gc">
-          </a>
-      </div>
-          <div id="card" class="cart">
           <a href="21.jpg" class="img-klik">
           <img src="21.jpg" class="gc">
           </a>
       </div>
-      <h3 class="cart">Powered By Kael</h3>
+      <div class="cart">
+      <marquee>
+      <h3>Maker is Kael</h3>
+      </marquee>
+      </div>
       <br>
       <br>
       <br>
@@ -180,5 +169,5 @@ function stop() {
   document.getElementById("stop").style.display = "none";
 }
 function masuk() {
-  window.location.href = "https://kaelvxy.github.io/We_Memories/Self.html";
+  window.location.href = "Self.html";
 }

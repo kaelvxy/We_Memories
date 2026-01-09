@@ -49,5 +49,5 @@ function tutuplist() {
   document.getElementById('menu').style.display = "none";
 }
 function masuk() {
-  window.location.href = "https://kaelvxy.github.io/We_Memories/Self.html";
+  window.location.href = "Self.html";
 }

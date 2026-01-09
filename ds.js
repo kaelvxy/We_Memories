@@ -30,7 +30,11 @@ function daftar() {
           <source src="25.mp4" class="gc">
           <video>
       </div>
-      <h3 class="cart">Powered By Kael</h3>
+      <div class="cart">
+      <marquee>
+      <h3>Maker is Kael</h3>
+      </marquee>
+      </div>
       <br>
       <br>
       <br>
