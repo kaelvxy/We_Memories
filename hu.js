@@ -107,7 +107,7 @@ function lanjut() {
       </div>
       <div class="cart">
       <marquee>
-      <h3>Maker is Kael</h3>
+      <h3>THE END</h3>
       </marquee>
       </div>
       <br>
