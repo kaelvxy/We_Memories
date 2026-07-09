@@ -12,7 +12,6 @@ function lanjut() {
       <div class="menu" id="menu">
         <button id="opsi" class="opsi" onclick="daftar()">Video Memories</button>
         <button id="opsi" class="opsi" onclick="pd()">Profile Developer</button>
-        <button id="opsi" class="opsi" onclick="masuk()">Akses Dev</button>
       </div>
       </div>
   <div class="container" id="container">
